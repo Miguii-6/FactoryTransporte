@@ -4,6 +4,8 @@ public class Factoria_Transporte {
 
     public static final int BICI = 2;
 
+
+
     /**
      * Método que devolve o tipo de transporte usado
      *
@@ -21,6 +23,9 @@ public class Factoria_Transporte {
             case BICI:
 
                 return new Bici();
+
+
+
 
             default:
                 return null;
