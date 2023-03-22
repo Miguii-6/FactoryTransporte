@@ -10,8 +10,11 @@ A función principal do patrón Builder é separar a construción dun obxecto co
 
 Un exemplo seria unha clase Barco, cos seus respectivos valores tanto si e para uso pesqueiro, turistico, personal entre moitos. Ao utilizar o patrón Builder podemos personalizar cada tipo dos sabendo o uso dos barcos co color, dimension, motor.
 
+-----
+ 
 #### ¿Como es su Diagrama de clases de este ejemplo que has hecho? Realiza en el readme el diagrama
 
+```mermaid
     classDiagram
       Main "1" *-- "1..*" BuilderBarcos : association
       class Main{
@@ -41,7 +44,7 @@ Un exemplo seria unha clase Barco, cos seus respectivos valores tanto si e para 
       class modeloPesquero{
         +modeloPesquero()      
       }
-
+```
 ------
 
 #### ¿Podríamos combinarlo con el patrón Factory? Explícalo con algo de código como lo harías
