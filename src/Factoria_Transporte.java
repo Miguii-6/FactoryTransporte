@@ -4,6 +4,8 @@ public class Factoria_Transporte {
 
     public static final int BICI = 2;
 
+    public static final int BARCO = 3;
+
 
 
     /**
@@ -24,6 +26,10 @@ public class Factoria_Transporte {
 
                 return new Bici();
 
+                //examen
+            case BARCO:
+
+                return new Barco();
 
 
 
